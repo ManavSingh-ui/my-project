@@ -1,0 +1,3 @@
+This is a simple Student Registration Form made using HTML. 
+It includes fields for Name, Email, and Age, with basic validations like required input, character limits, and age range. 
+When submitted, it sends the data to the server.
