@@ -1,0 +1,49 @@
+This project is a simple and clean Admin Dashboard made using HTML and CSS.
+ It features a dark mode switch, a navigation sidebar, a main content section, and a footer.  
+ The layout is built using CSS Grid, and the use of CSS variables makes it easy to handle theme changes.
+
+ HTML (Webpage Structure)
+1.Header (<header>)
+Displays the dashboard title: "Admin Dashboard"
+Includes a checkbox to enable/disable Dark Mode
+
+2.Sidebar (<div id="sidebar">)
+Contains 3 navigation links: Home, Users, and Settings
+All links are underlined, blue, and clickable
+
+3.Main Content (<main>)
+Welcomes the admin and serves as the area for charts, reports, or tables
+
+4.Footer (<footer>)
+Shows a copyright message
+
+5.JavaScript Script
+When the checkbox is toggled, it adds or removes a dark class on the <body> to switch between light and dark modes
+
+
+
+ CSS (Styling Breakdown)
+1.Color Scheme with Variables
+Uses :root to define default colors (light mode)
+A .dark class is used for dark mode, changing backgrounds and text colors accordingly
+
+2.Layout Design
+Utilizes CSS Grid to organize the page into header, sidebar, main section, and footer
+Sets the layout height to 100% of the viewport (100vh)
+
+3.Header Styling
+Background: Green
+Text: White
+Layout: Space between title and dark mode toggle
+
+4.Sidebar Styling
+Light gray in light mode, dark gray in dark mode
+Links are styled with blue underline; in dark mode, they turn light blue
+Items are shown as a bulleted list
+
+5.Main Section
+Includes padding for better spacing and readability
+
+6.Footer
+Shares the same green background as the header
+Text is white and centered
